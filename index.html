@@ -1,0 +1,73 @@
+<html>
+<title>Manuel</title>
+
+<style>
+    body {
+        background-color: black;
+        color: white;
+        text-align: center;
+        font-family: Arial, sans-serif;
+    }
+</style>
+
+
+<body>
+ <hr>
+BIENVENIDO A MI SITIO WEB
+ <hr>
+<br><br>
+<p>En este sitio vas a encontrar informacion sobre mi y mis pasatiempos.</p>
+<br><br>
+<br>
+<img src="foto.jpg" alt="Mi Foto" width="200">
+<br>
+<p>Naci en el 2003 osea que mi edad es de 22 y me gusta escuchar musica y tocar la guitarra, estoy en un grupo de musica donde precisamente toco la guitarra, me gustan los gatos y ver los atardeceres</p>
+</body>
+
+<br>
+Puedes contactarme en:
+<br>
+
+<br>
+duartermanuel139@gmail.com
+<br>
+
+
+
+<br><br><br><br><br><br>
+<button onclick="cambiarFondo()">CAMBIA EL FONDO</button>
+
+<script>
+    function cambiarFondo() {
+        document.body.style.backgroundImage = "url('fondo2.jpg')";
+        document.body.style.backgroundSize = "cover";  // Para ajustar la imagen al tamaño de la pantalla
+    }
+</script>
+
+
+
+
+
+
+
+
+
+
+<p id="fechaHora"></p>
+
+<script>
+function mostrarFechaHora() {
+var fecha = new Date();
+document.getElementById("fechaHora").innerHTML = "Fecha y hora actual: " + fecha.toString();
+    }
+mostrarFechaHora();
+</script>
+
+
+
+
+
+
+
+
+</html>
